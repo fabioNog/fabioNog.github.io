@@ -1,8 +1,47 @@
-html{
-	font-family: arial;
-	
+/*
+
+	cores escolhidas
+	#512DA8 - Roxo
+	#5F634F - Cinza escuro (Títulos)
+	#EBEBEB - Branco
+	#CAD2C5 - Cinza claro
+
+*/
+
+/*
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+*/
+
+.roxo {
+	color: #512DA8 !important;
 }
 
-p{
-	font-weight:600;
+.cinzaEscuro {
+	color: #5F634F !important;
+}
+
+.branco {
+	color: #EBEBEB !important;
+}
+
+.cinzaClaro {
+	color: #CAD2C5 !important;
+}
+
+.bg-roxo {
+	background-color: #512DA8 !important;
+}
+
+.bg-cinzaEscuro {
+	background-color: #5F634F !important;
+}
+
+.bg-branco {
+	background-color: #EBEBEB !important;
+}
+
+.bg-cinzaClaro {
+	background-color: #CAD2C5 !important;
 }
