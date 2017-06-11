@@ -54,9 +54,7 @@ html {
 	padding: 10%;
 }
 
-.imagemRedonda {
-	height: 150px;
-	width: 150px;
-	padding: 10%;
-	display: inline-block;
+.imagemCard {
+	height: 15em;
 }
+
