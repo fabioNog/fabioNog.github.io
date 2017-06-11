@@ -45,3 +45,18 @@ html {
 .bg-cinzaClaro {
 	background-color: #CAD2C5 !important;
 }
+
+.padding5 {
+	padding: 5%;
+}
+
+.padding10 {
+	padding: 10%;
+}
+
+.imagemRedonda {
+	height: 150px;
+	width: 150px;
+	padding: 10%;
+	display: inline-block;
+}
