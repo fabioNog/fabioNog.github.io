@@ -54,6 +54,14 @@ html {
 	padding: 10%;
 }
 
+.margin5 {
+	margin: 5%;
+}
+
+.margin10 {
+	margin: 10%;
+}
+
 .imagemCard {
 	height: 15em;
 }
