@@ -33,12 +33,31 @@
     </div>
   </nav>
 
+
+  <!--Slide Nav-->
   <ul id="menu-mobile" class="side-nav">
+    <li>
+      <div class="userView">
+        <div class="background">
+          <img src="img/css.jpg">
+        </div>
+        <a href="#!user"><img class="circle" src="img/FotoFinal.jpg"></a>
+        <a href="#!name"><span class="white-text name">Fabio Nogueira</span></a>
+        <a href="#!email"><span class="white-text email">fabionc.s2@gmail.com</span></a>
+      </div>
+
+      <li><a href="#section1">Sobre</a></li>
+      <li><a href="#secion2">Redes Profissionais</a></li>
+      <li><a href="#section3"> Informações Profissionais</a></li>
+    </li>
+
+  </ul>
+  <!--<ul id="menu-mobile" class="side-nav">
     <li><a href="#section1">Sobre</a></li>
     <li><a href="#secion2">Redes Profissionais</a></li>
     <li><a href="#section3"> Informações Profissionais</a></li>
 
-  </ul><br>
+  </ul><br>-->
 
   <div>
     <span>
@@ -68,13 +87,13 @@
   </div>
 
   <!--   Icon Section   -->
-  <div class="container">
+  <div class="container ">
 
-    <div class="row">
+    <div class="row z-depth-3">
 
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center roxo"><i class="material-icons">flash_on</i></h2>
+      <div class="col s12 m4 ">
+        <div class="icon-block ">
+          <h2 class="center roxo "><i class="material-icons">flash_on</i></h2>
           <h5 class="center">Informações</h5>
           <p class="center light">Graduando em Ciência da Computação Pela Universidade Federal de Lavras</p>
           <p class="center light">Desenvolvedor Web</p>
@@ -112,14 +131,24 @@
       </span>
   </div>
 
+  <div class="container">
+    <div class="col s12 m12 l12">
+      <div id="sectionInformacoesPessoais" class="section">
 
-  <div class="collection">
-    <a href="https://github.com/iniciacaociencia/iniciacaociencia" class="collection-item active center roxo " target="_BLANK"> Minha Iniciação Cientifica</a>
-    <a href="https://www.linkedin.com/in/fabio-nogueira-2b380b109/" class="collection-item center roxo" target="_BLANK">Meu Linkedin</a>
-    <a href="https://github.com/fabioNog" class="collection-item center roxo" target="_BLANK">Meu github</a>
-    <a href="https://gitlab.com/NCarmo/Curriculo" class="collection-item center roxo" target="_BLANK">Meu gitlab</a>
+        <div class="row z-depth-4">
+
+          <div class="collection responsive">
+            <a href="https://github.com/iniciacaociencia/iniciacaociencia" class="collection-item active center roxo " target="_BLANK"> Minha Iniciação Cientifica</a>
+            <a href="https://www.linkedin.com/in/fabio-nogueira-2b380b109/" class="collection-item center roxo" target="_BLANK">Meu Linkedin</a>
+            <a href="https://github.com/fabioNog" class="collection-item center roxo" target="_BLANK">Meu github</a>
+            <a href="https://gitlab.com/NCarmo/Curriculo" class="collection-item center roxo" target="_BLANK">Meu gitlab</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <br>
+
 
   <div id="section3">
     <span>
@@ -136,12 +165,12 @@
           <!-- Menu expandível -->
           <ul class="collapsible" data-collapsible="accordion">
             <li>
-              <div class="collapsible-header"><i class="material-icons">filter_drama</i>Objetivo</div>
+              <div class="collapsible-header"><i class="material-icons">trending_up</i>Objetivo</div>
               <div class="collapsible-body center"><span class="<roxo></roxo>">Trabalhar como desenvolvedor fullstack; desenvolver uma Startup ao qual atue de forma inovadora na área tecnológica</span></div>
             </li>
             <li>
-              <div class="collapsible-header"><i class="material-icons">place</i>Qualificações</div>
-              <div class="collapsible-body"><span>Conhecimentos básicos em componetes como:<br>
+              <div class="collapsible-header"><i class="material-icons">person_pin</i>Qualificações</div>
+              <div class="collapsible-body"><span>Conhecimentos Intermediarios em componetes como:<br>
               - HTML<br>
               - CSS <br>
               - PHP <br>
@@ -155,27 +184,30 @@
               </span></div>
             </li>
             <li>
-              <div class="collapsible-header"><i class="material-icons">place</i>Experiências</div>
+              <div class="collapsible-header"><i class="material-icons">work</i>Experiências</div>
               <div class="collapsible-body">
                 <span>
                   - Atualmente sou trainne na empresa CompJunior <br>
                   - Também sou Iniciante Cientifico desenvolvendo um aplicativo Móvel para deficientes visuais <br>
-                    utilizando o protocolo mqtt e um arduino que conversa em infra-vermelho com televisores, lampadas entre outros
-                    <br> Você conhece sobre o mqtt?<br>
+                    utilizando o protocolo mqtt e o broker mosquitto que conversa com um arduino. This is  of Things baby!
+                    <br> Você conhece sobre o mqtt?<br><br>
                     Clique neste link para conhecer mais  <a href ="http://mqtt.org/" class="waves-effect waves-light btn">mqtt</a>
                     <br><br>
-                  - Também Já fui monitor de Geometria Analítica e Álgebra Liner na UFLA
+                  - Também Já fui monitor de Geometria Analítica e Álgebra Liner na UFLA entre 2014 e 2015. <br>
+
+                  - Já fui estágiario! Professor de Matemática em um cursinho popular preparatório para enem pela prefeitura municipal de Lavras.
                 </span>
               </div>
             </li>
             <li>
               <div class="collapsible-header"><i class="material-icons">whatshot</i>Curiosidades</div>
-              <div class="collapsible-body center">
+              <div class="collapsible-body center responsive-video">
 
-                <h5>Você sabia que sou músico?!</<h5></h5>>
+                <h5>Você sabia que sou músico?</<h5></h5>
                 <p class="center light">Sou músico independente desde 2000, tenho alguns trabalhos no YouTube, e essa é uma composição própria que
                   fiz em 2010.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/IkeSYH0kqqc" frameborder="0" allowfullscreen></iframe>
+                <iframe class="reponsive-video" width="560" height="315" src="https://www.youtube.com/embed/IkeSYH0kqqc" frameborder="0"
+                  allowfullscreen></iframe>
               </div>
             </li>
           </ul>
