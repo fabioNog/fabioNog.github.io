@@ -13,4 +13,25 @@ $(document).ready(function () { $('.collapsible').collapsible(); });
 // });
 
 
-  $('.carousel.carousel-slider').carousel({fullWidth: true});
+    
+
+    $(document).ready(function(){
+        $('.div1')
+            .hide()
+            .delay('1500')
+            .animate({left: '250px'})
+            .fadeIn("slow");
+
+    });
+
+
+    $(document).ready(function(){
+
+        $('.div1')
+        .delay('1000')
+        .animate({left: '250px'});
+        
+
+    });
+
+
