@@ -20,16 +20,17 @@ $(document).ready(function () { $('.collapsible').collapsible(); });
             .hide()
             .delay('1500')
             .animate({left: '250px'})
-            .fadeIn("slow");
+            .slideDown(3000);
 
     });
 
 
     $(document).ready(function(){
 
-        $('.div1')
-        .delay('1000')
-        .animate({left: '250px'});
+        $('#div2')
+        .hide()
+        .slideDown(2000)
+        .fadeIn("slow");
         
 
     });
