@@ -63,7 +63,7 @@ html {
 }
 
 .imagemCard {
-	height: 18em;
+	height: 14em;
 }
 
 #gillSans {
@@ -85,7 +85,7 @@ font-family: GillSans, Calibri, Trebuchet, sans-serif;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	color: blue;
+	color: #512DA8 !important;
 	text-align: center;
 	font-family: 'Spicy Rice', cursive;
 	font-size: 35px;
