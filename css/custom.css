@@ -66,27 +66,27 @@ html {
 	height: 15em;
 }
 
-  #gillSans {
-    font-family: GillSans, Calibri, Trebuchet, sans-serif;
-  }
+#gillSans {
+font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
 
-  #i1{
-	  height: 20px;
-  }
+#i1{
+	height: 20px;
+}
 
 	/* Embed Font */
 
-	#card{
-		font-family: 'Poor Story', cursive;
-		font-family: 'Spicy Rice', cursive;
-	}
+#card{
+	font-family: 'Poor Story', cursive;
+	font-family: 'Spicy Rice', cursive;
+}
 
-	#pCard{
-		display: block;
-    margin-left: auto;
-    margin-right: auto;
-		color: blue;
-		text-align: center;
-		font-family: 'Spicy Rice', cursive;
-		font-size: 20px;
-	}
+#pCard{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: blue;
+	text-align: center;
+	font-family: 'Spicy Rice', cursive;
+	font-size: 35px;
+}
